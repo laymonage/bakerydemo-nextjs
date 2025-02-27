@@ -52,7 +52,6 @@ const galleryPageSchema = wagtailcore.Page.extend({
   collection: z
     .object({
       id: z.number(),
-      name: z.string(),
     })
     .nullable(),
 });
